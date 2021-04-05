@@ -13,8 +13,7 @@ data.forEach((sighting) => {
     // Use `Object.entries` and `forEach` to iterate through keys and values
     Object.entries(sighting).forEach(([key, value]) => {
         //Create a variable which adds a new data cell
-        var td = row.append("td");
-        td.text(value);
+        row.append("td").text(value);
     });
 });
 
