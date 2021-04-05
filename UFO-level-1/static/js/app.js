@@ -40,7 +40,8 @@ function runEnter() {
 
     //Create variable which looks at each object in data and filters it by inputVal
     var dataFiltered = data.filter(function(sighting){
-        return sighting.datetime === inputVal})
+        return sighting.datetime === inputVal});
+    //Alternatively...
     // var dataFiltered = data.filter(sighting => sighting.datetime === inputVal);
 
     //console.log(dataFiltered);
